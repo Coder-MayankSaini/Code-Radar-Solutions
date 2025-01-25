@@ -2,6 +2,7 @@
 
 int main() {
     char a[50];
-    printf("%.50c",a);
+    scanf("%s",&a);
+    printf("You entered: %s",a);
     return 0;
 }
