@@ -6,7 +6,7 @@ int main() {
     int a;
     scanf("%d",&a);
     
-    remainder = fmod(a,2);
+    int remainder = fmod(a,2);
 
     if(remainder==0){
         printf("Even");
