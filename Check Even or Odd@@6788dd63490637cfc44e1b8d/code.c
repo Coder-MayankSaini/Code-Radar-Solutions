@@ -2,10 +2,10 @@
 
 int main() {
     
-    int a;
+    int a,remainder;
     scanf("%d",&a);
     
-    int remainder = a%2;
+    remainder = a%2;
 
     if(remainder==0){
         printf("Even\n");
