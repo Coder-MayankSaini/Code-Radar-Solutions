@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <math>
+#include <math.h>
 
 int main() {
     
@@ -13,7 +13,7 @@ int main() {
 
     }
     else{
-        Printf("Odd");
+        printf("Odd");
     }
 
     return 0;
