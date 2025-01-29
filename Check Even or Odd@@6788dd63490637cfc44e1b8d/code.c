@@ -9,12 +9,13 @@ int main() {
     int remainder = fmod(a,2);
 
     if(remainder==0){
-        printf("Even");
+        printf("Even\n");
 
     }
     else{
-        printf("Odd");
+        printf("Odd\n");
     }
+    return 0;
 }
 
     return 0;
