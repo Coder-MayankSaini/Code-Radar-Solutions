@@ -6,7 +6,7 @@ int main() {
     scanf("%d%d",&a,&b);
 
     out = a-b;
-    if(out<=0){
+    if(out>=0){
         printf("%d",a);
     }
     else{
