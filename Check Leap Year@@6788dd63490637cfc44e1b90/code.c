@@ -10,6 +10,12 @@ int main() {
             if(a%400 == 0){
                 printf("Leap Year");
             }
+            else{
+                break;
+            }
+        }
+        else{
+            break;
         }
     }
     else{
