@@ -7,7 +7,7 @@ int main() {
 
     b = 1u << 31;
 
-    if( a & b ){
+    if( 1 & b ){
         printf("Set");
     }
     else{
