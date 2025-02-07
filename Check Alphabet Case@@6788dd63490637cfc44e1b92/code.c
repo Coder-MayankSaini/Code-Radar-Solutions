@@ -1,17 +1,15 @@
 #include <stdio.h>
-
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
+#include <ctype.h>
 int void() {
-    printf("%s", welcome());
-
-    int rec_fun(int a){
-        if (n==0){
-            return 1;
+        char a;
+        scanf("%c",&a,);
+        
+        if (isupper(a)){
+            Print("Uppercase");
         }
-        return n*rec_fun(a-1);
+        else{
+            Print("Lowercase");
+        
     }
    
 }
