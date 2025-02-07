@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+int main(){
+
+
+
 int a,b,c,d;
 scanf("%d%d%d",&a,&b,&c);
 
@@ -9,4 +13,6 @@ if(d<=c){
 }
 else{
     printf("Invalid");
+}
+return 0;
 }
