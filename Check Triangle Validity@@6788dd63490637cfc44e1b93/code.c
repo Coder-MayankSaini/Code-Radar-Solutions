@@ -4,11 +4,10 @@ int main(){
 
 
 
-int a,b,c,d;
+int a,b,c;
 scanf("%d%d%d",&a,&b,&c);
 
-d = a+b;
-if(d<=c){
+if((a+b)>=c){
     printf("Valid");
 }
 else{
