@@ -5,7 +5,7 @@ void main(){
     sum = 0;
 
     for(i=2;i<=a;i++){
-        if(n%i==0){
+        if(a%i==0){
             sum = sum+1
         }
     }
