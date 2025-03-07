@@ -3,7 +3,7 @@
 
 void grade(char x){
 
-switch x:
+switch (x):
 
 case A:
     printf("Excellent");
