@@ -7,7 +7,7 @@ int a;
     if(a==1||3||5||7||8||10||12){
         printf("31");
     }
-    elseif(a==2){
+    if else(a==2){
         printf("28");
     }
     else{
