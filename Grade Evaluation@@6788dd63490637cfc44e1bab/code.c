@@ -3,9 +3,9 @@
 
 void grade(char x){
 
-switch (x):
+switch (x){
 
-case A:
+case x==A:
     printf("Excellent");
     break;
 
@@ -27,7 +27,7 @@ case F:
 
 default :
     printf("Invalid grade");
-}
+}}
 
 int main(){
     char a;
