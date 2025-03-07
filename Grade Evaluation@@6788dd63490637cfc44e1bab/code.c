@@ -5,7 +5,7 @@ void grade(char x){
 
 switch (x){
 
-case x==A:
+case "A":
     printf("Excellent");
     break;
 
