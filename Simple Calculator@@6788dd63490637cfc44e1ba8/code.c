@@ -28,5 +28,6 @@ else{
 }
 
 printf("%d",output);
+return 0;
 
 }
