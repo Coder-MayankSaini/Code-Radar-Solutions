@@ -2,7 +2,7 @@
 
 void isPrime(int a){
 
-for(int i=a,i>0,i--){
+for(int i=a;i>0;i--){
     if(a%i==0){
         sum=sum+1;
     }
@@ -13,6 +13,7 @@ if(sum=2){
 }
 else(return 0;)
 }
+
 int main(){
     int t;
     scanf("%d", &t);
