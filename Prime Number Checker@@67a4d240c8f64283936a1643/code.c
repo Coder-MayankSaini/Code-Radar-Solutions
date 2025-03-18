@@ -4,7 +4,7 @@ void isPrime(int a){
 int sum;
 for(int i=a;i>0;i--){
     if(a%i==0){
-        sum=sum+1;
+        sum = sum+1;
     }
 }
 
