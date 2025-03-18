@@ -2,16 +2,16 @@
 
 void isPrime(int a){
 int sum = 0;
-for(int i=a;i>0;i--){
+for(int i=1;i<=A;i++){
     if(a%i==0){
-        sum = sum+1;
+        sum++;
     }
 }
 
-if(sum=2){
+if(sum==2){
     printf("1");
 }
-else(priAntf("0"));
+else(printf("0"));
 }
 
 
