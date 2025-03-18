@@ -1,10 +1,11 @@
 #include <stdio.h>
 void main(){
 
-int a,b,o,output;
+int a,b,output;
+char 0 ;
 scanf("%d%d%c",&a,&b,&o);
 
-if(o == '43'){
+if(o == '+'){
     output = a+b;
 }
 else if (o == '-'){
