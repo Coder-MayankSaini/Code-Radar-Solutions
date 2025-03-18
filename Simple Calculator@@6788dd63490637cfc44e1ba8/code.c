@@ -3,7 +3,7 @@ void main(){
 
 int a,b,output;
 char o ;
-scanf("%d %d %c",&a,&b,&o);
+scanf("%d%d%c",&a,&b,&o);
 
 if(o == '+'){
     output = a+b;
