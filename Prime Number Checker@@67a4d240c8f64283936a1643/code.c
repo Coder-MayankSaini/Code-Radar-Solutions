@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void isPrime(int a){
-
+int sum;
 for(int i=a;i>0;i--){
     if(a%i==0){
         sum=sum+1;
@@ -9,9 +9,9 @@ for(int i=a;i>0;i--){
 }
 
 if(sum=2){
-    return 1;
+    printf("1");
 }
-else(return 0;)
+else(printf("0");)
 }
 
 int main(){
