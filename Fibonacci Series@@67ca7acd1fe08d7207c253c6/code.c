@@ -5,7 +5,7 @@ int fibonacciSeries(int a){
 
     int sum = 0 ;
     if(a==1){
-        printf("1");
+        printf("0");
     }else{
     int num1 = 0;
     int num2 = 1;
