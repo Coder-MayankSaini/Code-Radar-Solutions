@@ -6,7 +6,7 @@ int fibonacciSeries(int a){
     int num1 = 0;
     int num2 = 1;
     printf("%d%d",num1,num2);
-    for(int i == 2; i<=a ; i++){
+    for(int i = 2; i<=a ; i++){
         sum = num1 + num2;
         num1 = num2;
         num2 = sum;
