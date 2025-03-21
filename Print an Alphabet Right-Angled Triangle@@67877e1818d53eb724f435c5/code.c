@@ -5,7 +5,7 @@ int triangle(int n){
     for(int i = 1; i <= n ; i++){
         for(int j = 1; j<=i;j++){
             int sum = a+j;
-            printf("%c",sum);
+            printf("%c ",sum);
         }
         printf("\n");
     }
