@@ -2,9 +2,9 @@
 
 void triangle(int n){
 int sum = 0;
-for(int i = 1; i <= n; i++){
+for(int i = n; i >= 1; i--){
     
-    for(int j = n; j >= 1; j--){
+    for(int j = 1; j >= n-i+1; j++){
         sum++;
         printf("%d ",sum);
     }
