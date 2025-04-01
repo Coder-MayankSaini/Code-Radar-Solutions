@@ -1,10 +1,6 @@
 #include <stdio.h>
 
-int check(int arr[]){
-    
 
-    return;
-}
 
 int main(){
     int n;
