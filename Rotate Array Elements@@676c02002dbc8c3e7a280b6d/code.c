@@ -1,9 +1,9 @@
-#include <stdio.h>.
+#include <stdio.h>
 int n ;
 int k;
 
 
-int rev(int arr[], int si, int li){
+int reverse(int arr[], int si, int li){
 
     for(int i=si,j=li ; i<j ; i++,j--){
         int temp = arr[i];
@@ -27,8 +27,8 @@ int main(){
     reverse(arr,0,k-1);
     reverse(arr,k,n-1);
 
-    for(int i = o ; i<n ; i++){
-        printf("%d",arr[0]);
+    for(int i = 0 ; i<n ; i++){
+        printf("%d ",arr[0]);
     }
     
 
