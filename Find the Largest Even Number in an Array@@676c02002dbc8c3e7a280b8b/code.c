@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int lrgeven(int arr[]){
+int lrgeven(int arr[],int n){
 
     for(int i=0,j=i+1;i<n-1;i++,j++){
         if(arr[i]<arr[j]){
@@ -15,7 +15,7 @@ int lrgeven(int arr[]){
 }
 
 int main(){
-
+int n;
 scanf("%d",&n);
     int arr[n];
 
@@ -23,6 +23,8 @@ scanf("%d",&n);
         scanf("%d",&arr[i]);
     }
 
-    lrgeven(arr[]);
+    lrgeven(arr[],n);
+    
+
     return 0;
 }
