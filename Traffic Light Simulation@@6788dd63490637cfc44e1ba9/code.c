@@ -4,7 +4,7 @@ int main(){
 int a;
 scanf("%c",&a);
 
-if(a=='R'){
+if(a=="R"){
     printf("Stop");
 }
 
