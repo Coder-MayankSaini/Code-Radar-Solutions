@@ -4,9 +4,9 @@ int power(int b, int k){
     int sum=1;
     
     for(int i=1 ; i<=k ; i++){
-        sum = sum*k;
+        sum = sum*i;
     }
-    print("%d",sum);
+    printf("%d",sum);
     return sum;
 }
 int main(){
