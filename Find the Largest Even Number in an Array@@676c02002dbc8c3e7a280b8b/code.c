@@ -2,14 +2,17 @@
 
 int lrgeven(int arr[],int n){
 
-    for(int i=0,j=i+1;i<n-1;i++,j++){
-        if(arr[i]<arr[j]){
+   for(int i =0 ; i<=n-2; i++){
+    for(int j = 0 ; j<=n-2;j++ ){
+        if(arr[j]<arr[j+1]){
             int temp;
             temp = arr[i];
             arr[i] = arr[j];
             arr[j] = temp;
         }
     }
+   }
+
 
     return 0;
 }
