@@ -8,9 +8,9 @@ scanf("%c",&a);
      if(isdigit(a)){
         printf("Digit");
      }
-     elseif(isalpha(a)){
-        loweralpha = islower(a);
-        if(a=='a'||a=='e'||a=='i'||a=='o'||a=='u'){
+     else if(isalpha(a)){
+        char loweralpha = tolower(a);
+        if(loweralpha=='a'||loweralpha=='e'||loweralpha=='i'||loweralpha=='o'||loweralpha=='u'){
             printf("Vowel");
         }else{
             printf("Consonant");
