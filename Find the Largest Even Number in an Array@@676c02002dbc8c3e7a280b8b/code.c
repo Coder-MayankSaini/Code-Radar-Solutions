@@ -23,8 +23,11 @@ scanf("%d",&n);
         scanf("%d",&arr[i]);
     }
 
-    lrgeven(arr[],n);
+    lrgeven(arr,n);
     
+    for(int i =0 ; i<n;i++){
+        printf("%d ",arr[i]);
+    }
 
     return 0;
 }
